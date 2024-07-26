@@ -1,0 +1,8 @@
+%%writefile app.py
+import streamlit as st
+
+st.title("Welcome to My First Streamlit App")
+name = st.text_input("Enter your Name: ")
+
+if name:
+  st.write(f"Hello, {name}! Welcome to the app.")
